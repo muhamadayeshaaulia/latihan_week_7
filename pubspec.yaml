@@ -44,7 +44,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -88,15 +88,15 @@ flutter:
   fonts:
     - family: raleway
       fonts:
-        - asset: fonts/raleway-regular.ttf
-        - asset: fonts/raleway-bold.ttf
-        - asset: fonts/raleway-italic.ttf
+        - asset: assets/fonts/raleway/raleway-regular.ttf
+        - asset: assets/fonts/raleway/raleway-bold.ttf
+        - asset: assets/fonts/raleway/raleway-italic.ttf
           style: italic
     - family: roboto
       fonts:
-        - asset: fonts/roboto-regular.ttf
-        - asset: fonts/roboto-bold.ttf
-        - asset: fonts/roboto-italic.ttf
+        - asset: assets/fonts/roboto/roboto-regular.ttf
+        - asset: assets/fonts/roboto/roboto-bold.ttf
+        - asset: assets/fonts/roboto/roboto-italic.ttf
           style: italic
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
