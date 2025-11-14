@@ -15,14 +15,19 @@ class MyListView extends StatelessWidget {
         itemCount: 5,
         itemBuilder: (context, index) {
           return Container(
-            height: 20,
+            height: 50,
+            margin: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
             color: Colors.blue[200],
+            ),
             child: Center(
               child: Text(
                 'Item ke-${index + 1}',
                 style: const TextStyle(fontFamily: 'roboto', fontSize: 16),
               ),
             ),
+            
           );
         },
         separatorBuilder: (context, index) {
