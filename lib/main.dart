@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "package:latihan_font_week_7/home.dart";
 import "package:latihan_font_week_7/listview.dart";
+import "package:latihan_font_week_7/produk.dart";
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
       title: 'Font roboto example',
       theme: ThemeData(fontFamily: 'Roboto', primarySwatch: Colors.blue),
       //home: MyHome(),
-      home: MyListView(),
+      //home: MyListView(),
+      home: MyProduct(),
     );
   }
 }
