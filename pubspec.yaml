@@ -85,5 +85,18 @@ flutter:
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
+  fonts:
+    - family: raleway
+      fonts:
+        - asset: fonts/raleway-regular.ttf
+        - asset: fonts/raleway-bold.ttf
+        - asset: fonts/raleway-italic.ttf
+          style: italic
+    - family: roboto
+      fonts:
+        - asset: fonts/roboto-regular.ttf
+        - asset: fonts/roboto-bold.ttf
+        - asset: fonts/roboto-italic.ttf
+          style: italic
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
